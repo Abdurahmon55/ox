@@ -4,6 +4,7 @@
 :root{
   --h5:#08082A;
   --span:#FF5A09;
+  --blue:#4ACF8C;
 }
 
 *{
@@ -48,4 +49,48 @@ p{
   font-size: 22px;
   line-height: 35px;
   color: var(--h5);
+}
+h3{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+color: var(--h5);
+}
+.over::after{
+  content: 'Why Choose us';
+  position: absolute;
+  top: -50px;
+  padding: 20px 80px;
+  border-radius: 20px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 28px;
+  color: var(--h5);
+  font-size: 20px;
+}
+.over::before{
+  content: '';
+  height: 160px;
+  border: 1px solid #d4d4d8;
+  position: absolute;
+  z-index: 1;
+  left: 100%;
+  top: 25%;
+}
+.cardInfo{
+  width: 510px;
+  margin: 72px 111px 72px 79px ;
+}
+.red{
+  color: var(--span);
+}
+.blue{
+  color: var(--blue);
+}
+.green{
+  background-color: var(--blue);
+}
+.oreng{
+  background-color: var(--span);
 }

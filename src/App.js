@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
+import Section from './components/section/Section'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <div className='container mx-56 py-10'>
         <Navbar/>
         <Header/>
+        <Section/>
       </div>
     </div>
   )

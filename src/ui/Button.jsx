@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({color,title}) {
+function Button({title}) {
   return (
-    <button className={`text-white rounded-md py-6 px-9 bg-[${color}]`}>{title}</button>
+    <button className={`text-white rounded-md py-6 px-9 bg-[#FF5A09]`}>{title}</button>
   )
 }
 
