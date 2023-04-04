@@ -3,6 +3,7 @@
 @tailwind utilities;
 :root{
   --h5:#08082A;
+  --span:#FF5A09;
 }
 
 *{
@@ -28,5 +29,23 @@ li,h5{
   font-size: 20px;
   line-height: 23px;
   list-style: none;
+  color: var(--h5);
+}
+h1{
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 120px;
+  color: var(--h5);
+}
+.Titel{
+  width: 552px;
+}
+h1 span{
+  color:  var(--span);
+}
+p{
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
   color: var(--h5);
 }

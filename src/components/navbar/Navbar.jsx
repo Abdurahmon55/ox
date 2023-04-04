@@ -1,6 +1,6 @@
 import React from 'react'
 import { menue } from '../../data/data'
-import Logo from '../Logo'
+import Logo from '../../ui/Logo'
 import MenueNav from './MenueNav'
 import RegNav from './RegNav'
 function Navbar() {
