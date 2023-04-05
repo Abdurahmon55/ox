@@ -48,10 +48,13 @@ function Section() {
         <CardSection key={item.id}{...item}/>
     ))}   
     </div>
-    <div className='wraper '>
+    <div className='wraper bg-white mt-36'>
         {trending.map((item)=>(
             <BigCardSection key={item.id}{...item}/>
         ))}
+    </div>
+    <div>
+        
     </div>
     </div>
     
