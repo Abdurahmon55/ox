@@ -7,6 +7,10 @@ import { useState } from 'react';
 import { useEffect } from 'react';
 import axios from 'axios'
 import CardSection from './CardSection';
+import { trending } from '../../data/data';
+import BigCardSection from './BigCardSection';
+
+
 function Section() {
     const [post, setPost]=useState([])
     const [count, setCount]=useState(0)
@@ -43,6 +47,11 @@ function Section() {
      {post && post.slice(0+count,4+count).map((item)=>(
         <CardSection key={item.id}{...item}/>
     ))}   
+    </div>
+    <div className='wraper '>
+        {trending.map((item)=>(
+            <BigCardSection key={item.id}{...item}/>
+        ))}
     </div>
     </div>
     
