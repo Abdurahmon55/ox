@@ -94,3 +94,18 @@ color: var(--h5);
 .oreng{
   background-color: var(--span);
 }
+h2{
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 86px;
+  color:  var(--h5);
+}
+.cardImg{
+  width: 402px;
+  height: 317px;
+}
+h4{
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
