@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../../ui/Button'
+import InfoFooter from './InfoFooter'
 
 function Footer() {
   return (
@@ -7,6 +8,9 @@ function Footer() {
         <div className='text-center mt-36 border py-20 rounded-lg  bg-[#FF5A09]'>
             <h2 className='w-[768px] m-auto text-white'>Get ahead of the competition with Experts</h2>
             <button className='bg-white button'>Discover Resources</button>
+        </div>
+        <div className='mt-36'>
+            <InfoFooter/>
         </div>
     </div>
   )
